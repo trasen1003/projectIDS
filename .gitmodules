@@ -1,0 +1,12 @@
+[submodule "DCL"]
+	path = DCL
+	url = https://github.com/trasen1003/DCL.git
+[submodule "YOLOv5"]
+	path = YOLOv5
+	url = https://github.com/ultralytics/yolov5.git
+[submodule "yolov5"]
+	path = yolov5
+	url = https://github.com/ultralytics/yolov5.git
+[submodule "sort"]
+	path = sort
+	url = https://github.com/cfotache/pytorch_objectdetecttrack.git
