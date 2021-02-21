@@ -1,0 +1,4 @@
+train: insect_data/images/train
+val: insect_data/images/validation
+nc: 1
+names: ["insect"]
