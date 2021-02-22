@@ -14,7 +14,7 @@ Le script permettant de faire tourner la détection (YOLO v5) et le tracking (al
 
 Au cours du traitement de la vidéo par `yolo_and_sort.py`, des images de chaque individu vont être écrites dans le dossier PHOTOS (un sous-dossier par individu est créé, à l'intérieur duquel sont stockées les images de cet individu). 
 
-Le réseau de neurones YOLO v5 utilisé (poids: `insect.pt`)est celui qui reconnaît des insectes: pour tester le code il vaut donc mieux utiliser une vidéo d'insectes (avec suffisamment de zoom). Sinon, il faut télécharger les poids `yolov5s.pt` (https://github.com/ultralytics/yolov5). 
+Le réseau de neurones YOLO v5 utilisé (poids: `insect.pt`) est celui qui reconnaît des insectes: pour tester le code il vaut donc mieux utiliser une vidéo d'insectes (avec suffisamment de zoom). Sinon, il faut télécharger les poids `yolov5s.pt` (https://github.com/ultralytics/yolov5). 
 
 Les scripts principaux appelés dans `yolo_and_track.py` sont: `detect_bis.py` et `send_data.py`.
 
