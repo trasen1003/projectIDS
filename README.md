@@ -6,9 +6,8 @@ Tous les codes et la bonne architecture se trouvent dans le dossier /deep-learni
 + CUDA 10.1
 + Python 3.8.5
 + Pytorch 1.7.1 - torchvision 0.8.2 
-+ wandb
 + OpenCV 4.1.2.30 (contrib) 
-+ autres packages principaux: cython, filterpy, numpy, numba, pandas, requests, scikit-learn (0.22.2), scipy, seaborn, tensorboard, yaml
++ autres packages principaux: cython, filterpy, numpy, numba, pandas, requests, scikit-learn (0.22.2), scipy, seaborn, tensorboard, yaml, wandb
 
 Le script permettant de faire tourner la détection (YOLO v5) et le tracking (algorithme Sort) sur une vidéo est: `yolo_and_track.py`. Pour cela, il faut mettre le chemin de la vidéo à la ligne 38 `videopath`. La vidéo résultat RESULT.mp4 se trouvera dans /sort/results. 
 
